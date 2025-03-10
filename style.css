@@ -1,0 +1,53 @@
+body {
+    background-color: #000;
+    color: white;
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    margin: 0;
+}
+
+.parent{
+    max-width: 100%;
+    margin: auto;
+}
+  
+video{
+    display: block;
+    max-width: 100%;
+}
+  
+.parent{
+    position: relative;;
+}
+  
+video{
+    display: block;
+    width: inherit;
+    height: inherit;
+}
+  
+.block_video{
+    clip-path: path();
+  
+}
+  
+.block_svg{
+    position: absolute;
+    top: 0;
+    left: 0;
+     width: 100%
+}
+  
+  
+  
+.text_svg{
+    font-size: 20px;
+    fill: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: sans-serif;
+}
